@@ -1,0 +1,10 @@
+create database DB;
+use DB ;
+CREATE TABLE employee (
+    employee_no int(10) Primary Key NOT NULL ,
+    employee_name varchar(100) NOT NULL,
+    date_of_joining date NOT NULL,
+    department varchar(2) NOT NULL,
+    salary float(10) NOT NULL
+   
+);
